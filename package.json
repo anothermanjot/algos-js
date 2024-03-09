@@ -1,0 +1,22 @@
+{
+  "name": "algos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bubbleSort.js",
+  "scripts": {
+    "test": "mocha && node benchmark/sort.js"
+  },
+  "eslintConfig": {
+    "extends": "airbnb"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "chai": "^5.1.0",
+    "eslint": "^8.57.0",
+    "mocha": "^10.3.0",
+    "prettier": "3.2.5"
+  },
+  "type": "module"
+}
